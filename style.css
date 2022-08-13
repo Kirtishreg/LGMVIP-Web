@@ -1,0 +1,33 @@
+/* for hiding the arrow button and enter numeric value only in input tag  */
+
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+body {
+    background-color: #C0C0C0;
+}
+
+.display {
+    position: relative;
+    bottom: 529px;
+    left: 672px;
+    box-shadow: 1px 1px 6px #FF0000;
+}
+
+table th {
+    padding: 0 38px;
+    ;
+}

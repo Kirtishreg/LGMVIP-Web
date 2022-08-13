@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+body {
+    background-image: url("https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2019/04/shutterstock_407554567-compressor-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li,
+button {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+li {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    padding: 30px 10%;
+    margin-bottom: 50px;
+}
+
+.brand {
+    padding: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: aliceblue;
+    font-family: 'Grechen Fuemen', cursive;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0 auto;
+    margin-left: 600px;
+    font-family: 'Grechen Fuemen', cursive;
+}
+
+.btn {
+    color: white !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #c4083a;
+    padding: 10px;
+    border-radius: 25px;
+    outline: none;
+    border: 0;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+    font-family: 'Grechen Fuemen', cursive;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: #c4083a !important;
+    font-weight: bold;
+    background: white;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+}
+
+.card {
+    text-align: center;
+    background: #f4f754d8;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px rgb(54, 41, 41);
+    padding: 10px;
+    width: 360px;
+    height: 300px;
+    margin: 16px;
+    position: relative;
+}
+
+.card img {
+    position: absolute;
+    right: 30%;
+    top: 10%;
+    border-radius: 40%;
+}
+
+.card-content {
+    margin-top: 50%;
+}
+
+.card-content h4 {
+    font-size: 1.5rem;
+}
+
+.card-content h5 {
+    margin-top: 15px;
+    ;
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.loader {
+    margin: auto;
+    border: 16px solid #f3f3f3;
+    /* Light grey */
+    border-top: 16px solid blueviolet;
+    /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
